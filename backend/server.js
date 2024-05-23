@@ -10,7 +10,7 @@ const Data = require('./models/Data');
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 8000;
 
 // Middleware
 app.use(cors());
