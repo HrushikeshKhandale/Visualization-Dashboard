@@ -1,19 +1,23 @@
 const mongoose = require('mongoose');
 
 const DataSchema = new mongoose.Schema({
+    end_year: String,
     intensity: Number,
-    likelihood: Number,
-    relevance: Number,
-    year: Number,
-    country: String,
-    topics: String,
-    region: String,
-    city: String,
-    end_year: Number,
     sector: String,
-    pest: String,
+    topic: String,
+    insight: String,
+    url: String,
+    region: String,
+    start_year: String,
+    impact: String,
+    added: String,
+    published: String,
+    country: String,
+    relevance: Number,
+    pestle: String,
     source: String,
-    swot: String,
+    title: String,
+    likelihood: Number
 });
 
 module.exports = mongoose.model('Data', DataSchema);
