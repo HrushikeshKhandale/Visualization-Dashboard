@@ -47,7 +47,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:6000/api/data")
+      .get("http://localhost:8000/api/data")
       .then((response) => setData(response.data))
       .catch((error) => console.error("Error fetching data: ", error));
   }, []);
