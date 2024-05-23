@@ -1,6 +1,6 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
-import Dashboard from './components/Dashboard';
+import Dashboard from './component/Dashboard';
 import './App.css';
 
 function App() {
